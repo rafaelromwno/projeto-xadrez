@@ -1,4 +1,5 @@
 ﻿using tabuleiro;
+using xadrez;
 using xadrez_console.tabuleiro;
 using xadrez_console.xadrez;
 
@@ -10,24 +11,13 @@ namespace xadrez_console
     {
         static void Main(string[] args)
         {
+            PosicaoXadrez pos = new PosicaoXadrez('c', 7);
 
-            try
-            {
-                Tabuleiro tab = new Tabuleiro(8, 8);
+            Console.WriteLine(pos);
 
-                tab.ColocarPeca(new Torre(tab, Cor.Preta), new Posicao(0, 0));
-                tab.ColocarPeca(new Torre(tab, Cor.Preta), new Posicao(1, 3));
-                tab.ColocarPeca(new Rei(tab, Cor.Preta), new Posicao(1, 3));
+            Console.WriteLine(pos.ToPosicao());
 
-                Tela.ImprimirTabuleiro(tab);
-
-                Console.ReadLine();
-            }
-            catch (TabuleiroException ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-
+            Console.ReadLine();
         }
     }
 }
