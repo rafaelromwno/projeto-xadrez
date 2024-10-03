@@ -11,9 +11,9 @@ namespace xadrez_console
     {
         public static void ImprimirTabuleiro(Tabuleiro tab)
         {
-            for (int l = 0; l < tab.Linha; l++)
+            for (int l = 0; l < tab.Linhas; l++)
             {
-                for (int c = 0; c < tab.Coluna; c++)
+                for (int c = 0; c < tab.Colunas; c++)
                 {
                     if (tab.GetPeca(l, c) == null)
                     {
