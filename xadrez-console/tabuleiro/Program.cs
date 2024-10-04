@@ -1,6 +1,6 @@
 ﻿using tabuleiro;
 using xadrez;
-using xadrez_console.xadrez;
+using xadrez_console;
 using System;
 
 
