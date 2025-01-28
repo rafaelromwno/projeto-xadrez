@@ -105,3 +105,7 @@ A primeira parte do curso se concentra nos conceitos básicos da POO, como:
 - **Matrizes**: Arranjos bidimensionais de elementos.
 - **Listas**: Coleções ordenadas que permitem a inserção e remoção de elementos.
 - **Conjuntos**: Coleções não ordenadas de elementos únicos.
+
+### Resultado do projeto
+
+https://github.com/user-attachments/assets/4a19e189-977d-4661-8184-202fa3731c36
